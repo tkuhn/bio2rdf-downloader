@@ -1,4 +1,4 @@
-Bio2Rdf Downloader
+Bio2RDF Downloader
 ==================
 
 This repository contains a bash script for downloading the Bio2RDF data.
