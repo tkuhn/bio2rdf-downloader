@@ -25,8 +25,8 @@ while read D; do
     echo "Downloading $F..." >> ../../out.log
     wget ${URL}${D}/${F} >> ../../out.log 2>> ../../err.log
   done < files.txt
-  echo "Uncompressing files..." >> ../out.log
-  gunzip *.gz >> ../out.log 2>> ../err.log
+  echo "Uncompressing files..." >> ../../out.log
+  gunzip *.gz >> ../../out.log 2>> ../../err.log
   rm files.txt
   cd ..
 done < dirs.txt
