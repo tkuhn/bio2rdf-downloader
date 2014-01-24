@@ -36,7 +36,7 @@ while read D; do
   mkdir -p $D
   cd $D
   wget ${URL}${D}/ -O index.html >> ../out.log 2>> ../err.log
-  cat index.html | egrep '<a href="[^"]*">[^<].*(\.nt|\.owl)(\.gz)?</a>' | sed 's/^.*<a href="[^"]*">\([^<].*\)<\/a>.*$/\1/' > files.txt
+  cat index.html | egrep '<a href="[^"]*">[^<].*(\.nt|\.nq|\.owl)(\.gz)?</a>' | sed 's/^.*<a href="[^"]*">\([^<].*\)<\/a>.*$/\1/' > files.txt
   rm index.html
   while read F; do
     echo "Downloading $F..." >> ../out.log

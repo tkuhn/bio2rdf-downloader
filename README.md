@@ -11,6 +11,10 @@ Run download script in background:
 
     $ ./run.sh &
 
+Download specific release:
+
+    $ ./run.sh 2
+
 
 License of this Download Script
 -------------------------------
