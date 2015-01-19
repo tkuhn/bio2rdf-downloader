@@ -19,4 +19,4 @@ Download specific release:
 License of this Download Script
 -------------------------------
 
-This download script is free software under the MIT License. See LICENSE.txt.
+This download script is in the public domain. See LICENSE.txt.
