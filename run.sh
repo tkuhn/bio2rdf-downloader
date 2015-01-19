@@ -9,7 +9,7 @@
 #     $ ./run.sh
 #
 
-RELEASE=2
+RELEASE=3
 
 if [ "$1" != "" ] ; then
   RELEASE=$1
